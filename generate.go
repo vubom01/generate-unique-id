@@ -18,7 +18,7 @@ type UniqueIDGenerator struct {
 type ID int64
 
 const (
-	Epoch         int64 = 1735664400000 // 2025-01-01 00:00:00
+	Epoch         int64 = 1735664400000 // 2025-01-01 00:00:00 UTC
 	TimestampBits       = 39
 	CustomBits          = 1
 	NodeBits            = 10
